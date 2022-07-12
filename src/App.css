@@ -10,9 +10,19 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+    -webkit-animation: App-logo-spin infinite 20s linear;
 }
+}
+.span-todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  padding-left: 40%;
 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
